@@ -128,7 +128,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .skills-list {
@@ -177,4 +177,110 @@ body {
     text-align: center;
     background-color: #10c9c3;
     color: rgb(0, 0, 0);
+}
+
+.portfolio {
+    background-color: #10c9c3;
+    padding: 100px 40px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 0 1%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.portfolio-item img {
+    max-width: 17%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+.portfolio-content {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.portfolio-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-top: -10px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gallery img {
+    width: 25%;
+    height: auto;
+}
+
+.load-more {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(242, 249, 249);
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    position: center;
+    bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.768);
+    font-size: 14px;
+}
+
+.process {
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.process-content {
+    text-align: center;
+}
+
+.process-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.process-content p {
+    color: rgba(128, 128, 128, 0.79);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.process-img {
+    text-align: center;
+}
+
+.process-img img {
+    max-width: 85%;
+    height: auto;
 }
